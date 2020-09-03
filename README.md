@@ -1,4 +1,5 @@
 # Typescript-4.0
+
 Learning TypeScript:
 
 npm install -g typescript ts-node
@@ -26,7 +27,7 @@ axios is used for network request
 Executing Typescript code
 index.ts
 Follow the code in this file
-run on terminal: 
+run on terminal:
 tsc index.ts
 node index.js
 We can use 'ts-node index.ts' instead using tsc index.ts and node index.js
@@ -50,3 +51,12 @@ Task 4:
 Follow the code in this file
 index.js
 Cating more errors
+
+Task 5:
+commit 5 topics
+type,annotation,annotation with variables
+annotation with object literals
+annotation around function
+understand interface,any type,fixing any type
+delayed initialization
+annotation around function
