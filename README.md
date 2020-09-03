@@ -60,3 +60,5 @@ annotation around function
 understand interface,any type,fixing any type
 delayed initialization
 annotation around function
+
+Task 6:
