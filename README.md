@@ -62,3 +62,19 @@ delayed initialization
 annotation around function
 
 Task 6:
+commit 7 topics
+1)type array,multiple type arrays
+2)when to use type arrays,tuples in typescript
+3)tuples in action,long type annotation
+4)fixing annotation with interfaces,synatx around interfaces
+5)functions in interface,Reuse with interfaces,classes,Basic of inhertence
+
+
+
+
+
+
+
+
+
+
