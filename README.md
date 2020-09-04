@@ -60,3 +60,9 @@ annotation around function
 understand interface,any type,fixing any type
 delayed initialization
 annotation around function
+
+Task 6:
+commit 7 topics
+1)type array,multiple type arrays
+2)when to use type arrays,tuples in typescript
+3)tuples in action,

@@ -20,7 +20,7 @@ let truths: boolean[] = [true, true, false];
 
 // classes
 class Car {}
-let car: Car = new Car();
+let cars: Car = new Car();
 
 // object literal
 
