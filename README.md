@@ -72,7 +72,9 @@ commit 7 topics
 Task 7:
 follow task6 branch
 1)class method modifier,fields in classes,fields with inheritence,where to use class
-
+2)npm install -g parcel-bundler
+3)mkdir maps make index.html and index.ts 
+and run parcel index.html.all code is push to branch task6
 
 
 
