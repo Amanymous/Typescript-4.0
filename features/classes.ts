@@ -60,13 +60,26 @@
 // console.log(vehicle.color);
 
 // -----------------------------------
+// class Vehicle {
+//   protected drive(): void {
+//     console.log('yoho');
+//   }
+//   constructor(public color: string) {
+//     this.color = color;
+//   }
+//   // only public able to run on it not private and protected
+//   protected honk(): void {
+//     console.log('honk');
+//   }
+// }
+
+// const vehicle = new Vehicle('orange');
+// console.log(vehicle.color);
+
+// ------------------------------------
+
 class Vehicle {
-  protected drive(): void {
-    console.log('yoho');
-  }
-  constructor(public color: string) {
-    this.color = color;
-  }
+  constructor(public color: string) {}
   // only public able to run on it not private and protected
   protected honk(): void {
     console.log('honk');
@@ -75,3 +88,21 @@ class Vehicle {
 
 const vehicle = new Vehicle('orange');
 console.log(vehicle.color);
+
+class Cars extends Vehicle {
+  constructor(public wheels: number, color: string) {
+    super(color);
+    console.log(wheels, color);
+  }
+  private drive(): void {
+    console.log('cars');
+  }
+
+  startDrivingProcess(): void {
+    this.drive();
+    this.honk();
+  }
+}
+
+const carss = new Cars(4, 'red');
+carss.startDrivingProcess();
