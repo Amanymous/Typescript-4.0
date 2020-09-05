@@ -69,7 +69,9 @@ commit 7 topics
 4)fixing annotation with interfaces,synatx around interfaces
 5)functions in interface,Reuse with interfaces,classes,Basic of inhertence
 
-
+Task 7:
+follow task6 branch
+1)class method modifier,fields in classes,fields with inheritence,where to use class
 
 
 
