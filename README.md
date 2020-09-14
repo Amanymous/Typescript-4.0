@@ -76,9 +76,16 @@ follow task6 branch
 3)mkdir maps make index.html and index.ts 
 and run parcel index.html.all code is push to branch task6
 
-
-
-
+Task 8:
+follow task6 branch
+cd maps
+1)npm i faker and npm install @types/faker
+2)https://console.developers.google.com go to this link create project then go to javascript maps click on it
+then go to dashboard click on credentials and generate an API key then go to index.html
+and this <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaqnF1Ci1lfPuuYkkedYb8XWyp-3GcI40"></script>
+it also contain API_KEY
+npm i @types/googlemaps purpose to install this because if u don't install it will give error while writing google in index.ts
+follow the guide and map app is completed
 
 
 
